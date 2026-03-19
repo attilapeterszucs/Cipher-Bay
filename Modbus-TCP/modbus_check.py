@@ -2,7 +2,6 @@ from pymodbus.client import ModbusTcpClient
 
 HOST = "127.0.0.1"
 PORT = 5020
-UNIT = 1
 
 client = ModbusTcpClient(host=HOST, port=PORT)
 
@@ -22,7 +21,7 @@ if not fc03.isError():
 else:
     print(f"FC03 error: {fc03}")
 
-# FC04, read input register at address 0
+# FC04, read input register at address 1
 fc04_address = 1
 fc04 = client.read_input_registers(address=fc04_address, count=1)
 if not fc04.isError():
