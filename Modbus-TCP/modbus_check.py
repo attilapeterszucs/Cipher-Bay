@@ -1,5 +1,3 @@
-import os
-import ssl
 import sys
 from pymodbus.client import ModbusTcpClient
 
