@@ -1,0 +1,16 @@
+﻿Id;Default
+22;%f
+852;%s
+457;---
+803;<
+99;>
+472;A
+489;Delete
+905;J
+207;Lambda
+603;Load Cam
+490;Save Cam
+994;Split
+834;V
+618;X
+342;Y

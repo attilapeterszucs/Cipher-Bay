@@ -1,0 +1,7 @@
+﻿Id;Default
+0;Line
+1;Poly5
+2;Poly7
+3;InclinedSine
+4;ModifiedSine
+;

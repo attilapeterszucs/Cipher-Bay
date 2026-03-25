@@ -1,0 +1,35 @@
+services:
+  codesys-runtime:
+    image: codesys-runtime-live:v1
+    container_name: codesys-runtime
+    hostname: codesys-plc
+    restart: unless-stopped
+
+    command: /bin/bash -c "/etc/init.d/codesyscontrol start && /etc/init.d/codesysedge start && /usr/sbin/sshd -D"
+
+    ports:
+      - "2222:22"             # SSH - used by CODESYS Deploy Tool
+      - "502:502"             # Modbus TCP
+      - "8080:8080"           # WebVisu
+      - "11740:11740/tcp"     # CODESYS TCP
+      - "11740:11740/udp"     # CODESYS UDP (CRITICAL for scanning)
+      - "1217:1217/tcp"       # Gateway TCP
+      - "1217:1217/udp"       # Gateway UDP (CRITICAL for scanning)
+
+    volumes:
+      - ./codesys_data/PlcLogic:/var/opt/codesys/PlcLogic
+      - ./codesys_data/cfg:/etc/CODESYSControl
+      - ./codesys_data/logs:/var/log/codesys
+
+    cap_add:
+      - SYS_NICE       
+      - NET_ADMIN      
+      - SYS_RAWIO      
+
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+
+    environment:
+      - TZ=Europe/Brussels
