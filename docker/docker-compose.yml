@@ -5,7 +5,7 @@ services:
     hostname: codesys-plc
     restart: unless-stopped
 
-    command: /bin/bash -c "/etc/init.d/codesyscontrol start && /etc/init.d/codesysedge start && /usr/sbin/sshd -D"
+    command: /bin/bash -c "/etc/init.d/codesyscontrol start && /etc/init.d/codesysedge start && /usr/sbin/sshd && sleep 6600"
 
     ports:
       - "2222:22"             # SSH - used by CODESYS Deploy Tool
