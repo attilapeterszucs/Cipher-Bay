@@ -1,0 +1,20 @@
+﻿Id;Default
+724;%.1f A
+704;Back
+878;Charge Current: %.1f A
+96;Charging Active
+211;Charging Active:
+790;Charging ActiveLabel
+583;Charging Monitor
+307;CLOSE DOCK
+854;Control System v1.0
+547;Control System v1.2.0
+355;Current Door State: %s
+884;Dock Control Panel
+47;DRONE DOCKING STATION
+996;Drone Monitoring Dashboard
+757;Monitoring
+23;Open Control Panel
+697;OPEN DOCK
+466;Open Monitoring
+89;Simulate Drone Landed

@@ -1,0 +1,152 @@
+﻿Id;Default;de;en
+1;Info Wago;Info Wago;Info Wago
+2;Warning Wago;Warnung Wago;Warning Wago
+3;Ok Wago;Ok Wago;Ok Wago
+4;Error Wago;Fehler Wago;Error Wago
+5;Help Wago;Hilfe Wago;Help Wago
+6;Execute Wago;Ausführen Wago;Execute Wago
+7;Warning refreshed Wago;Warnung aktualisiert Wago;Warning refreshed Wago
+8;Sync error Wago;Sync Fehler Wago;Sync error Wago
+9;Delete Wago;Löschen Wago;Delete Wago
+10;Delete 2 Wago;Löschen 2 Wago;Delete 2 Wago
+200;Fluorescents lamp Wago;Leuchtstofflampe Wago;Fluorescents lamp Wago
+201;Emergency lighting Wago;Notbeleuchtung Wago;Emergency lighting Wago
+202;HID lamp Wago;HQI Leuchte Wago;HID lamp Wago
+203;Low voltage lamp Wago;Niedervoltlampe Wago;Low voltage lamp Wago
+204;Incandescent lamp Wago;Glühlampe Wago;Incandescent lamp Wago
+205;0 - 10 V Converter Wago;0 - 10 V Konverter Wago;0 - 10 V Converter Wago
+206;LED Wago;LED Wago;Switch function Wago
+207;Switching Function Wago;Schaltfunktion Wago;LED Wago
+208;Colour control Wago;Farbsteuerung Wago;Colour control Wago
+301;Pushbutton coupler Wago;Tastenkoppler Wago;Pushbutton coupler Wago
+303;Presence sensor Wago;Präsenzmelder Wago;Presence sensor Wago
+304;Light sensor Wago;Lichtsensor Wago;Light sensor Wago
+305;Remote control Wago;Fernbedienung Wago;Remote control Wago
+400;Start Addressing Wago;Adressierung starten Wago;Start Addressing Wago
+401;Central On Wago;Zentral Ein Wago;Central On Wago
+402;Central Off Wago;Zentral Aus Wago;Central Off Wago
+403;Addressing Wago;Adressierung Wago;Addressing Wago
+404;DALI configuration Wago;DALI Konfiguration Wago;DALI configuration Wago
+405;Group / Scenes Wago;Gruppen / Szenen Wago;Group / Scenes Wago
+406;Grouping Wago;Gruppierung Wago;Grouping Wago
+407;DALI ECGs Wago;DALI EVGs Wago;DALI ECGs Wago
+408;Sensor Type 1 Wago;Sensor Typ 1 Wago;Sensor Type 1 Wago
+409;Sensor Type 1 Wago;Sensor Typ 2 Wago;Sensor Type 1 Wago
+410;Operating hours Wago;Betriebsstunden Wago;Operating hours Wago
+411;Reset Operating Hours Wago;Reset Betriebsstunden Wago;Reset Operating Hours Wago
+412;Query Status Wago;Statusabfrage Wago;Query Status Wago
+413;Status Report Wago;Status Report Wago;Status Report Wago
+1000;Save Wago;Speichern Wago;Save Wago
+1001;Save as Wago;Speichern als Wago;Save as Wago
+1002;Auto save Wago;Auto speichern Wago;Auto save Wago
+1003;Save receipe Wago;Rezept speichern Wago;Save receipe Wago
+1004;Folder Wago;Ordner Wago;Folder Wago
+1005;Folder open Wago;Ordner geöffnet Wago;Folder open Wago
+1006;Folder application Wago;Ordner Anwendung Wago;Folder application Wago
+1007;Folder add Wago;Ordner hinzufügen Wago;Folder add Wago
+1008;Import CSV Wago;Import CSV Wago;Import CSV Wago
+1009;Import / Export Wago;Import / Export Wago;Import / Export Wago
+1010;Import file Wago;Import Datei Wago;Import file Wago
+1011;Import Wago;Import Wago;Import Wago
+1012;Import Error Wago;Import Fehler Wago;Import Error Wago
+1013;Import Project Wago;Import Projekt Wago;Import Project Wago
+1014;Import success Wago;Import erfolgreich Wago;Import success Wago
+1015;Export Wago;Export Wago;Export Wago
+1016;Export CSV Wago;Export CSV Wago;Export CSV Wago
+1017;Export Project Wago;Export Projekt Wago;Export Project Wago
+2000;Add datapoint Wago;Datenpunkt hinzufügen Wago;Add datapoint Wago
+2001;Remove datapoint Wago;Datenpunkt entfernen Wago;Remove datapoint Wago
+2002;Overview datapoints Wago;Datenpunkte Übersicht Wago;Overview datapoints Wago
+2003;Grouping datapoints Wago;Datenpunkt gruppieren Wago;Grouping datapoints Wago
+2004;Move down datapoint Wago;Datenpunkt nach unten Wago;Move down datapoint Wago
+2005;Move up datapoint Wago;Datenpunkt nach oben Wago;Move up datapoint Wago
+1100;TCP Master Wago;TCP Master Wago;TCP Master Wago
+1101;TCP Slave Wago;TCP Slave Wago;TCP Slave Wago
+1102;Modbus Master Wago;Modbus Master Wago;Modbus Master Wago
+1103;Modbus Slave Wago;Modbus Slave Wago;Modbus Slave Wago
+1200;Test start Wago;Test start Wago;Test start Wago
+1201;Test stop Wago;Test stopp Wago;Test stop Wago
+1202;Test write Wago;Test schreiben Wago;Test write Wago
+1300;Fieldbus run Wago;Feldbus läuft Wago;Fieldbus run Wago
+1301;Fieldbus stop Wago;Feldbus stopp Wago;Fieldbus stop Wago
+1302;Fieldbus error Wago;Feldbus Störung Wago;Fieldbus error Wago
+1400;Drawer Wago;Schublade Wago;Drawer Wago
+1401;Language settings Wago;Sprachauswahl Wago;Language settings Wago
+1402;Plus Wago;Plus Wago;Plus Wago
+1403;Sort letters Wago;Sortieren nach Buchstaben Wago;Sort letters Wago
+1404;Sort numbers Wago;Sortieren nach Zahlen Wago;Sort numbers Wago
+1405;Reset Wago;Reset Wago;Reset Wago
+1406;Set IP-Address Wago;IP-Adresse schreiben Wago;Set IP-Address Wago
+1407;Curve Wago;Kurve Wago;Curve Wago
+1408;Contact support Wago;Support kontaktieren Wago;Contact support Wago
+1409;Network device Wago;Netzwerk Gerät Wago;Network device Wago
+1410;Toolbox Wago;Werkzeugkasten Wago;Toolbox Wago
+1411;Project Info Wago;Projektinformation Wago;Project Info Wago
+1412;Configuration Info Wago;Konfigurationsinformation Wago;Configuration Info Wago
+1500;Read Wago;Lesen Wago;Read Wago
+1501;Compare Wago;Vergleichen Wago;Compare Wago
+1502;Write Wago;Schreiben Wago;Write Wago
+1503;Write all Wago;Alle schreiben Wago;Write all Wago
+1504;Parameter refresh Wago;Parameter aktualisieren Wago;Parameter refresh Wago
+1505;Synchronise Wago;Synchronisieren Wago;Synchronise Wago
+1413;Settings Wago;Einstellungen Wago;Settings Wago
+1414;Module Wago;Klemme Wago;Module Wago
+1415;Project Settings Wago;Projekteinstellungen Wago;Project Settings Wago
+414;Start Locate Wago;Lokalisierung starten Wago;Start Locate Wago
+415;Stop Locate Wago;Lokalisierung stoppen Wago;Stop Locate Wago
+1416;Configuration Wago;Konfiguration Wago;Configuration Wago
+100;Checkbox Checked Default Wago;Checkbox ausgewählt Default Wago;Checkbox Checked Default Wago
+101;Checkbox Unchecked Default Wago;Checkbox abgewählt Default Wago;Checkbox Unchecked Default Wago
+110;Checkbox Checked White Wago;Checkbox ausgewählt White Wago;Checkbox Checked White Wago
+111;Checkbox Unchecked White Wago;Checkbox abgewählt White Wago;Checkbox Unchecked White Wago
+112;Checkbox Checked Gray White Wago;Checkbox ausgewählt grau White Wago;Checkbox Checked Gray White Wago
+113;Checkbox Checked Green White Wago;Checkbox ausgewählt grün White Wago;Checkbox Checked Green White Wago
+114;Checkbox Checked Red White Wago;Checkbox ausgewählt rot White Wago;Checkbox Checked Red White Wago
+115;Checkbox Checked Yellow White Wago;Checkbox ausgewählt gelb White Wago;Checkbox Checked Yellow White Wago
+120;Checkbox Checked Flat Wago;Checkbox ausgewählt Flat Wago;Checkbox Checked Flat Wago
+121;Checkbox Unchecked Flat Wago;Checkbox abgewählt Flat Wago;Checkbox Unchecked Flat Wago
+122;Checkbox Checked Gray Flat Wago;Checkbox ausgewählt grau Flat Wago;Checkbox Checked Gray Flat Wago
+123;Checkbox Checked Green Flat Wago;Checkbox ausgewählt grün Flat Wago;Checkbox Checked Green Flat Wago
+124;Checkbox Checked Red Flat Wago;Checkbox ausgewählt rot Flat Wago;Checkbox Checked Red Flat Wago
+125;Checkbox Checked Yellow Flat Wago;Checkbox ausgewählt gelb Flat Wago;Checkbox Checked Yellow Flat Wago
+130;Checkbox Checked Basic Common Wago;Checkbox ausgewählt Basic Common Wago;Checkbox Checked Basic Common Wago
+131;Checkbox Unchecked Basic Common Wago;Checkbox abgewählt Basic Common Wago;Checkbox Unchecked Basic Common Wago
+140;Checkbox Checked Default Var. 2 Wago;Checkbox ausgewählt Default Var. 2 Wago;Checkbox Checked Default Var. 2 Wago
+141;Checkbox Unchecked Default Var. 2 Wago;Checkbox abgewählt Default Var. 2 Wago;Checkbox Unchecked Default Var. 2 Wago
+1104;Modbus Wago;Modbus Wago;Modbus Wago
+2100;Play green Wago;Play grün Wago;Play green Wago
+2110;Stop red Wago;Stopp rot Wago;Stop red Wago
+2120;Pause red Wago;Pause rot Wago;Pause red Wago
+2121;Pause gray Wago;Pause grau Wago;Pause gray Wago
+1417;Logout Wago;Ausloggen Wago;Logout Wago
+2200;Transfer settings Wago;Einstellungen Übertragen Wago;Transfer settings Wago
+2201;Factory default Wago;Werkseinstellung Wago;Factory default Wago
+2202;Delete 3 Wago;Löschen 3 Wago;Delete 3 Wago
+2203;Start Wago;Start Wago;Start Wago
+2204;Start active Wago;Start aktiv Wago;Start active Wago
+2205;Re-start active Wago;Neustart aktiv Wago;Re-start active Wago
+2206;Re-start Wago;Neustart Wago;Re-start Wago
+2207;Stop red Wago;Stopp rot Wago;Stop red Wago
+2208;Stop black Wago;Stopp schwarz Wago;Stop black Wago
+2209;Addressing Wago;Adressierung Wago;Adressing Wago
+2210;Auto addessing Wago;Automatische Adressierung Wago;Auto addressing Wago
+2211;Gear Wago;Antrieb Wago;Gear Wago
+2212;Gear run Wago;Fahrbefehle Wago;Gear run Wago
+2213;Scan Wago;Abfrage Wago;Scan Wago
+2214;Settings Wago;Konfiguration Wago;Settings Wago
+2215;System expansion Wago;Systemerweiterung Wago;System expansion Wago
+2006;Datapoint Wago;Datenpunkt Wago;Datapoint Wago
+2007;Dynamic datapoint Wago;Dynamischer Datenpunkt Wago;Dynamic datapoint Wago
+1418;License Wago;Lizenz Wago;License Wago
+2300;BACnet priority override;BACnet priorisierte Übersteuerung;BACnet priority override
+2301;BACnet fault red;BACnet Fehler rot;BACnet fault red
+2302;BACnet fault grey;BACnet Fehler grau;BACnet fault grey
+2303;BACnet refresh green;BACnet aktualisieren grün;BACnet refresh green
+2304;BACnet refresh grey;BACnet aktualisieren grau;BACnet refresh grey
+2306;BACnet StatusFlag Fault hot;;BACnet StatusFlag Fault hot
+2305;BACnet StatusFlag InAlarm hot;;BACnet StatusFlag InAlarm hot
+2307;BACnet StatusFlag ManualOverride hot;;BACnet StatusFlag ManualOverride hot
+2308;BACnet StatusFlag OutOfService hot;;BACnet StatusFlag OutOfService hot
+2309;BACnet status warning hot;BACnet Status Warnung hot;BACnet status warning hot
+0;Placeholder;Platzhalter;placeholder
+;;;
