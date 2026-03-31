@@ -1,6 +1,7 @@
 services:
   codesys-runtime:
     image: codesys-runtime-live:v1
+    mac_address: 02:42:ac:11:00:02
     container_name: codesys-runtime
     hostname: codesys-plc
     restart: unless-stopped
