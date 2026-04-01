@@ -3,12 +3,21 @@
 ![CODESYS](https://img.shields.io/badge/CODESYS-3.5-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Linux_SL_%7C_Docker-lightgrey.svg)
 ![Protocol](https://img.shields.io/badge/Protocol-Modbus_TCP-green.svg)
+![Documentation](https://img.shields.io/badge/Docs-DOCUMENTATION.md-orange.svg)
 
 ## 📝 Description
 
 This project provides a complete, scalable control system for an automated drone docking station. Built using **CODESYS 3.5**, the application is designed to run as a headless Soft PLC (`CODESYS Control for Linux SL`) inside a **Docker container** hosted on a server. 
 
 The system handles the physical state machine of the dock doors (Opening, Open, Closing, Closed), simulates drone landing and battery charging sequences, and provides real-time telemetry. It features a built-in **WebVisu HMI** accessible via any standard web browser for remote operation, and it broadcasts all critical system data over **Modbus TCP (Port 502)** for easy integration with higher-level SCADA, IoT dashboards, or fleet management servers.
+
+## 📚 Documentation & Deployment
+
+For a full in-depth technical reference covering the PLC state machine, GVL variables, Modbus register map, Docker infrastructure, deployment workflow, and the challenges encountered during development, see:
+
+👉 **[docs/DOCUMENTATION.md](./docs/DOCUMENTATION.md)**
+
+---
 
 ## 📸 System Overview
 
@@ -82,32 +91,3 @@ Data is served over Modbus TCP on **Port 502**.
 | **Charge Current**| Input Register | `%QW2` (Reg 2) | `WORD` | Amperage (Scaled x10. e.g., `52` = 5.2A) |
 | **Is Docked** | Discrete Input | Bit 0 | `BOOL` | `TRUE` if drone is physically on the pad |
 | **Is Charging** | Discrete Input | Bit 1 | `BOOL` | `TRUE` if active charging is occurring |
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-* CODESYS Development System V3.5 installed on a Windows machine.
-* A server or Raspberry Pi running Linux with Docker installed.
-* The `CODESYS Control for Linux SL` package installed in your CODESYS environment.
-
-### Deployment Instructions
-
-1. **Start the Docker Container:**
-   Run the official CODESYS Linux SL container on your server, ensuring you expose ports `8080` (WebVisu) and `502` (Modbus).
-   ```bash
-   docker run -d --name codesys-plc -p 8080:8080 -p 502:502 codesys/codesys-control-linux-sl:latest
-
-1. **Configure Network:**
-   * Open the project in CODESYS.
-   * Double-click the **Ethernet** node.
-   * Ensure the **Network interface** matches your container's virtual adapter (typically `eth0`).
-
-2. **Download and Run:**
-   * Double-click **Device**.
-   * Enter the IP address of your Docker host server.
-   * Click **Login** (`Alt+F8`), accept the download prompt, and click **Start** (`F5`).
-
-3. **Access the HMI:**
-   * Open a web browser and navigate to:
-     `http://<YOUR_SERVER_IP>:8080/webvisu.htm`
