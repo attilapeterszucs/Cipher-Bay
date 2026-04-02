@@ -354,7 +354,7 @@ Three visualization screens:
 ### VIS_Home  Main Menu
 The landing page. Navigation buttons to the other two screens.
 
-![WebVisu Main Menu](./Images/menu.png)
+![WebVisu Main Menu](../Images/menu.png)
 
 ### VIS_ControlPanel  Control Panel
 Operator interface for controlling the dock:
@@ -365,7 +365,7 @@ Operator interface for controlling the dock:
 - **Drone SVG** (drone.svg) shown/hidden based on xIsDocked
 - **Door State**  text/indicator from eCurrentState
 
-![Control Panel](./Images/control-panel.png)
+![Control Panel](../Images/control-panel.png)
 
 ### VIS_Monitoring  Monitoring Dashboard
 Read-only telemetry dashboard:
@@ -375,7 +375,7 @@ Read-only telemetry dashboard:
 - **Current Time**  formatted clock from sFormattedTime (HH:MM:SS)
 
 
-![Monitoring Dashboard](./Images/monitoring.png)
+![Monitoring Dashboard](../Images/monitoring.png)
 
 ---
 
